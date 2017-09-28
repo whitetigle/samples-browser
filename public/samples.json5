@@ -36,8 +36,22 @@
       "desc": "Classic snake game that can be played either by keyboard or mouse/touch. Originally developed by [Alberto Ayuso](https://twitter.com/ayuscode) for FunScript.",
       "img": "funsnake.png"
     },
+  },
+  "pixi": {
     "pixi": {
       "entry": "Pixi.fsproj",
+      "title": "Pixi sample",
+      "desc": "Simple renderization with [PixiJS](http://www.pixijs.com/), a fast and flexible library to render 2D WebGL content.",
+      "img": "pixi.jpeg"
+    },
+    "pixi/basic": {
+      "entry": "PixiBasic.fsproj",
+      "title": "Pixi sample",
+      "desc": "Simple renderization with [PixiJS](http://www.pixijs.com/), a fast and flexible library to render 2D WebGL content.",
+      "img": "pixi.jpeg"
+    },
+    "pixi/container": {
+      "entry": "PixiContainer.fsproj",
       "title": "Pixi sample",
       "desc": "Simple renderization with [PixiJS](http://www.pixijs.com/), a fast and flexible library to render 2D WebGL content.",
       "img": "pixi.jpeg"

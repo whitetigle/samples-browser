@@ -9,6 +9,7 @@ open Fable.Import.Browser
 open Fable.Import.JS
 
 // create a new Sprite from an image path
+//let options = PIXI.ApplicationOptions.BackgroundColor 0x1099bb 
 let options = createEmpty<PIXI.ApplicationOptions>
 options.backgroundColor <- Some 0xAAAACC
 
@@ -16,7 +17,7 @@ let app = PIXI.Application(400., 400., options)
 Browser.document.body.appendChild(app.view) |> ignore
 
 // create a new Sprite from an image path
-let bunny = PIXI.Sprite.fromImage("fable_logo_small.png")
+let bunny = PIXI.Sprite.fromImage("../fable_logo_small.png")
 
 let renderer : PIXI.WebGLRenderer = !!app.renderer
 
